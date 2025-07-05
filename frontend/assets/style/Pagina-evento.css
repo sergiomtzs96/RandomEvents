@@ -1,0 +1,19 @@
+/*Botón añadir al carrito*/
+.btn-addCart {
+    font-size: 12px;
+    background-color: #4D194D !important;
+    border: 2px solid #4D194D !important;
+    color: #ffffff !important;
+}
+
+.btn-addCart:hover {
+    background-color: #B44CB4 !important;
+    border: 2px solid #B44CB4 !important;
+    color: #ffffff !important;
+}
+
+.reviews-container {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 10px;
+}

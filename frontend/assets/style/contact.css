@@ -1,0 +1,46 @@
+/* Cargar la fuente Montserrat desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+.font-family_contact {
+    font-family: 'Montserrat', sans-serif;
+}
+.body-contact {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+/* Botón crear cuenta */
+.button_register.btn {
+    font-size: 12px;
+    background-color: #4D194D;
+    border: 2px solid #4D194D;
+    color: #ffffff;
+}
+
+.button_register.btn:hover {
+    background-color: #B44CB4;
+    border: 2px solid #B44CB4;
+    color: #ffffff;
+}
+
+.mensaje-contenedor {
+    margin-top: 15px;
+}
+.alerta-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.alerta-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
